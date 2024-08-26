@@ -1,0 +1,230 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+    background-color:rgb(56, 52, 52);
+}
+
+/* Navigation */
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.logo {
+    font-size: 1.5em;
+    
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* Hero Section */
+.hero-section {
+    height: 100vh;
+    background: url('Image/background.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero-section p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.hero-section .hero-image {
+    width: 200px; /* Adjust the width as needed */
+    height: auto;
+    border-radius: 50%; /* Makes the image circular */
+    margin-bottom: 20px; /* Space between the image and the text */
+}
+
+.btn {
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* About Section */
+.about-content img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 2px solid #fff;
+}
+.about-section {
+    padding: 50px;
+    background: #fff;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.about-section h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.about-section p {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Projects Section */
+.projects-section {
+    padding: 50px;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.projects-section h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.project {
+    margin: 20px;
+    display: inline-block;
+    width: 45%;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.project h3 {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+.project p {
+    margin-top: 5px;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 50px;
+    background: #fff;
+    text-align: center;
+}
+
+.contact-section h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.contact-section p {
+    max-width: 600px;
+    margin: 0 auto 30px;
+    font-size: 1.2em;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #555;
+}
+
+/* Social Media Links */
+.social-media {
+    margin-top: 30px;
+}
+
+.social-media a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-media img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+.social-media img:hover {
+    transform: scale(1.1);
+}
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
